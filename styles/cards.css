@@ -1,0 +1,64 @@
+.jobs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.job {
+  background-color: var(--color-grey-6);
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  border-radius: 8px;
+}
+
+.job__top {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.job__locals {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.job__modality-div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.job__modality {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--color-grey-3);
+  border-radius: 8px;
+}
+
+.job__bottom {
+  gap: 32px;
+}
+
+.jobs__selected-list {
+  display: flex;
+  align-items: center;
+}
+
+.job__empty-applies {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.job__empty-applies img {
+  width: 100%;
+  filter: brightness(1);
+}
+
+.job__empty-applies p {
+  align-self: flex-start;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./pages/home/index.css" />
+    <link rel="stylesheet" href="./styles/cards.css" />
+    <link rel="stylesheet" href="./styles/texts.css" />
+
+    <script defer src="./pages/home/jobsData.js"></script>
+    <script defer src="./pages/home/index.js"></script>
+
+    <link
+      rel="shortcut icon"
+      href="/assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Webwomen</title>
+    <meta
+      name="description"
+      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?"
+    />
+  </head>
+  <body>
+    <header class="header__cont">
+      <nav class="header__box container">
+        <h1 class="header__logo __title-3">Webwomen</h1>
+        <div class="header__desc">
+          <p class="__title-1">Lugar de mulher é onde ela quiser!</p>
+          <p class="__title-5">
+            Está procurando oportunidades de estágio, emprego ou bolsas de
+            estudo? <br />
+            Ou até mesmo oportunidades para atender eventos de tecnologia no
+            Brasil e ao redor do mundo?
+          </p>
+          <p class="__title-5">
+            <strong>Confere aqui embaixo o que temos pra você!</strong>
+          </p>
+        </div>
+        <a href="#jobsList" class="brand__btn __text-2">
+          Ir para seção das vagas
+        </a>
+      </nav>
+    </header>
+    <main id="jobsList" class="main__cont container">
+      <p class="__title-4">Vagas</p>
+      <section class="jobs">
+        <ul class="jobs__list"></ul>
+        <aside class="jobs__selected">
+          <p class="apply__text __title-4">Vagas selecionadas</p>
+          <ul class="jobs__selected-list"></ul>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
